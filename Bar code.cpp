@@ -67,7 +67,7 @@ class barCode
 
 		void verification()
 		{
-			int Sr=0, S1, Sh=0, S, P, t, firstNum, pozition;
+			int Sr=0, S1, Sh=0, S, P, t, pozition;
 			for (int i = 1; i < SIZE; i+=2)
 			{
 				Sr += barcode[i];
@@ -80,7 +80,6 @@ class barCode
 
 			S1 = Sr * 3;
 			S = S1 + Sh;
-			firstNum = S / 10;
 			t = S % 10;
 			P = 10 - t;
 			
