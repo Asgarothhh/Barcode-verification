@@ -121,7 +121,6 @@ class barCode
 
 							S1 = Sr * 3;
 							S = S1 + Sh;
-							firstNum = S / 10;
 							t = S % 10;
 							P = 10 - t;
 							if (P == barcode[SIZE - 1])
